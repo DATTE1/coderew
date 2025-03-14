@@ -1,0 +1,30 @@
+/* CSS стили для кнопки с развертыванием вниз */
+header {
+    position: static;
+    top: 0;
+    z-index: 1000;
+    background: #ffffff3d;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none; /* Убираем подчеркивание из ссылок */
+    color: #000000; /* Цвет текста ссылки */
+}
+
+a:hover {
+    color: #3f3f3f; /* Цвет текста ссылки при наведении */
+}
+
+.element {
+    margin: 20px; /* 20px со всех сторон */
+}
+select {
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+select option{
+    background-color: transparent !important;
+  border: 1px solid #e4e4e4;
+  color: #000;
+}
